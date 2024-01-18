@@ -1,0 +1,165 @@
+.PieChart {
+  height: 350px;
+  width: 350px;
+}
+.LineChart {
+  height: 350px;
+  width: 350px;
+}
+.BarChart {
+  height: 350px;
+  width: 350px;
+}
+.donn {
+  height: 10px;
+  width: 800px;
+}
+.div.row md-2 {
+  height: 400px;
+  width: 400px;
+}
+
+.wholebodi {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.lefftdiv {
+  width: 20%;
+}
+
+.righhtdiv {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+}
+.bottomdiv {
+  display: flex;
+  flex-direction: row;
+}
+.roww0
+{
+  margin:0;
+}
+
+.roww {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  gap: 590px;
+  padding-left: 10px;
+}
+
+.buttons {
+  gap: 10px;
+  display: flex;
+}
+
+.butto,
+.butt {
+  border: none;
+  border-radius: 3px;
+}
+.butt {
+  background-color: yellow;
+  color: black;
+}
+
+.roww3 {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid grey; */
+
+  padding-left: 10px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 96%;
+  margin-top: 20px;
+  margin-left: 10px;
+  height: 70px;
+  align-items: center;
+  background-color: #fff;
+}
+
+.piee
+{
+    height: 200px;
+    width:200px;
+    background-color: #fff;
+}
+.roww4
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    gap: 10px;
+    padding-left: 10px;
+}
+.headtext {
+  color: darkgray;
+  font-size: 12px;
+  padding-right: 5px;
+}
+
+.innerrow2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.innerrow2 span
+{
+  font-size: 12px;
+}
+
+.cols {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid grey;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.cols2
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    width: 100%;  
+}
+
+.roww2 {
+  padding-top: 20px;
+  padding-left: 10px;
+  gap: 32px;
+  display: flex;
+  width: 100%;
+}
+
+.inp1 {
+  width: 17%;
+  border: none;
+}
+
+.perc {
+    gap: 5px;
+    display: flex;
+    align-items: end;
+}
+
+.barr{
+  width: 355px;
+  height: 200px;
+  background-color: #fff;
+}
+.linee
+{
+  width: 400px;
+  background-color: #fff;
+}
+.roww5{
+  display: flex;
+  background-color: #fff;
+  width: 400px;
+  padding-top: 10px;
+}

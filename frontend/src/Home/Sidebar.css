@@ -1,0 +1,14 @@
+.Sidebar{
+    background-color: #0081CF;
+    
+    padding-top: 20px;
+    opacity: 0.8;
+    color: #fff;
+    font-size: 16px;
+    height: 100%;
+    
+
+}
+.SideBarList{
+ width: 30px;
+}

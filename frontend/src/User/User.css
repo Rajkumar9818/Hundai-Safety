@@ -5,3 +5,16 @@
     border: none;
     height: 30px;
 }
+.Heading
+{
+    font-family: 'Times New Roman', Times, serif;
+   color: #fff;
+   font-size: 17px;
+
+}
+.rightdiv{
+    background-color: lightgrey;
+}
+.subBtn{
+    padding-top: 20px;
+}

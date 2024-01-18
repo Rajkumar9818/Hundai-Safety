@@ -18,6 +18,7 @@ const Login = () => {
     console.log("Password:", values.Password);
    
 
+    
     axios
       .post('http://localhost:5000/login', values)
       .then((res) => {
@@ -66,34 +67,6 @@ const Login = () => {
         </form>
       </div>
     </div>
-
-    //     <>
-    //     <div className='container-image'>
-
-    //     </div>
-    //   <div className='container-fluid'>
-    //     <h2>Login</h2>
-    //     <div>
-    //       <label htmlFor="username">Username:</label>
-    //       <input
-    //         type="text"
-    //         id="username"
-    //         value={username}
-    //         onChange={(e) => setUsername(e.target.value)}
-    //       />
-    //     </div>
-    //     <div>
-    //       <label htmlFor="password">Password:</label>
-    //       <input
-    //         type="password"
-    //         id="password"
-    //         value={password}
-    //         onChange={(e) => setPassword(e.target.value)}
-    //       />
-    //     </div>
-    //     <button className='btn btn-primary' onClick={handleLogin}>Login</button>
-    //   </div>
-    //   </>
   );
 };
 

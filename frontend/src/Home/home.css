@@ -1,0 +1,28 @@
+.upperdiv
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.maindiv
+{
+    display: flex;
+    flex-direction: row;
+}
+.lefdiv
+{
+    width: 20%;
+}
+
+.rigdiv
+{
+    width: 80%;
+    background-color: lightgrey;
+}
+.btnedit{
+    height: 20px;
+    width: 20px;
+}
+.btn btn-success{
+    color: yellow;
+}
